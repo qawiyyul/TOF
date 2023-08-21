@@ -1,0 +1,14 @@
+../TOF/App/app_tof.c:62:6:MX_TOF_Init	1
+../TOF/App/app_tof.c:84:6:MX_TOF_Process	1
+../TOF/App/app_tof.c:97:13:MX_53L7A1_SimpleRanging_Init	2
+../TOF/App/app_tof.c:115:13:MX_53L7A1_SimpleRanging_Process	4
+../TOF/App/app_tof.c:159:13:print_result_simplified	2
+../TOF/App/app_tof.c:185:13:print_result	19
+../TOF/App/app_tof.c:264:13:toggle_resolution	5
+../TOF/App/app_tof.c:294:13:toggle_signal_and_ambient	1
+../TOF/App/app_tof.c:305:13:clear_screen	1
+../TOF/App/app_tof.c:310:13:display_commands_banner	1
+../TOF/App/app_tof.c:325:13:handle_cmd	5
+../TOF/App/app_tof.c:348:16:get_key	1
+../TOF/App/app_tof.c:357:17:com_has_data	1
+../TOF/App/app_tof.c:362:6:BSP_PB_Callback	1

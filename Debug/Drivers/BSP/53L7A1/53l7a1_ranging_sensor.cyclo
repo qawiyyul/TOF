@@ -1,0 +1,16 @@
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:69:9:VL53L7A1_RANGING_SENSOR_Init	2
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:90:9:VL53L7A1_RANGING_SENSOR_DeInit	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:116:9:VL53L7A1_RANGING_SENSOR_ReadID	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:142:9:VL53L7A1_RANGING_SENSOR_GetCapabilities	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:168:9:VL53L7A1_RANGING_SENSOR_ConfigProfile	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:194:9:VL53L7A1_RANGING_SENSOR_ConfigROI	4
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:225:9:VL53L7A1_RANGING_SENSOR_ConfigIT	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:255:9:VL53L7A1_RANGING_SENSOR_GetDistance	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:281:9:VL53L7A1_RANGING_SENSOR_Start	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:306:9:VL53L7A1_RANGING_SENSOR_Stop	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:332:9:VL53L7A1_RANGING_SENSOR_SetAddress	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:358:9:VL53L7A1_RANGING_SENSOR_GetAddress	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:384:9:VL53L7A1_RANGING_SENSOR_SetPowerMode	5
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:415:9:VL53L7A1_RANGING_SENSOR_GetPowerMode	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:443:9:VL53L7A1_RANGING_SENSOR_XTalkCalibration	3
+../Drivers/BSP/53L7A1/53l7a1_ranging_sensor.c:472:16:VL53L7CX_Probe	6

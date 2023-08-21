@@ -1,0 +1,15 @@
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:90:9:BSP_GetVersion	4	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:107:9:BSP_PB_Init	24	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:147:9:BSP_PB_DeInit	40	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:165:9:BSP_PB_GetState	16	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:174:6:BSP_PB_IRQHandler	16	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:184:13:BSP_PB_Callback	16	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:197:13:BUTTON_USER_EXTI_Callback	8	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:206:13:BUTTON_USER_GPIO_Init	40	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:233:9:BSP_COM_Init	24	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:271:9:BSP_COM_DeInit	24	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:308:26:MX_USART2_UART_Init	24	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:428:9:BSP_COM_SelectLogPort	16	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:474:5:__io_putchar	16	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:487:13:USART2_MspInit	128	static
+../Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c:528:13:USART2_MspDeInit	16	static

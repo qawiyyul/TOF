@@ -6,7 +6,7 @@ I used the document in the link below to setup the registers. Document is meant 
 
 https://www.st.com/resource/en/user_manual/um3108-how-to-use-stmicroelectronics-xcubetof1-timeofflight-sensor-software-packages-for-stm32cubemx-stmicroelectronics.pdf
 
-Edits are mainly in the ***** file where I marked. It changes the print function from a GUI to a string where the SerialRead.py script can read it.
+Edits are mainly in the TOF/App/app_tof.c file where I marked. It changes the print function from a GUI to a string where the SerialRead.py script can read it.
 
 ### SerialRead.py
 Required libraries:

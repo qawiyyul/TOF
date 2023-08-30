@@ -1,4 +1,4 @@
-# VL53L7CX TOF Sensor
+# VL53L7CX TOF Sensor for Nucleo G4 Board
 
 Should be able to open this project in STM32CubeIDE
 

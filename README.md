@@ -1,4 +1,4 @@
-# TOF
+# VL53L7CX TOF Sensor
 
 Should be able to open this project in STM32CubeIDE
 
@@ -12,10 +12,11 @@ Edits are mainly in the TOF/App/app_tof.c file where I marked. It changes the pr
 Required libraries:
 
 ```
-pyserial
-numpy
-scipy
-matplotlib
+pip install pyserial numpy scipy matplotlib
 ```
 
 Reads the serial from the board and turns it into a numpy array. The script also interpolates the numpy array using the scipy library and displays a colour mesh using the matplotlib library. 
+
+
+### SerialReadRospy.py (incomplete)
+This is an attempt to convert the script to a ros node. Have not implemented a way to transmit the numpy array as a ROS message. It can either be implemented using converting the array to prebuilt MultiArray message format or an external library which allows Numpy Array messages. Will also need to be put in a seperate folder to create a package.

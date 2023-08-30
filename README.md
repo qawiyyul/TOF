@@ -6,14 +6,19 @@ Ensure STM32CubeIDE is installed on your computer.
 
 https://www.st.com/en/development-tools/stm32cubeide.html
 
-Download the zip file for this repository and extract it to your desired workspace.(Or if you have Git you can clone it)
+Open a terminal and navigate to your preferred workspace
+
+Clone this repository
+```
+git clone https://github.com/qawiyyul/TOF.git
+```
 
 Open the TOF-main folder and open the .project file to open the project in STM32CubeIDE
 
 Attach the STM32 G4 Nucleo board via USB and upload the code by pressing the run debug button
 
-![attached board](/readmeimages/image.png "attached board")
-![upload button](/readmeimages/image.png "upload button")
+![attached board](/readmeimages/STM32connect.jpg "attached board")
+![upload button](/readmeimages/UploadSTM32.PNG "upload button")
 
 ### SerialRead.py
 Reads the serial from the board and turns it into a numpy array. The script also interpolates the numpy array using the scipy library and displays a colour mesh using the matplotlib library. 
@@ -29,7 +34,7 @@ Run SerialRead.py in terminal
 ```
 python SerialRead.py
 ```
-![program output](/readmeimages/image.png "program output")
+![program output](/readmeimages/TOFoutput.PNG "program output")
 
 ctrl-c in the terminal to shut down the program
 
